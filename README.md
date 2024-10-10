@@ -1,6 +1,6 @@
 Step by step:
 
-1. In setting.py place token of your bot
+1. In settings.py place token of your bot
 
 2. pip install requirements.txt
 
