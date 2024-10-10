@@ -1,9 +1,14 @@
-Step by step:
+## A Step by step:
 
-1. In settings.py place token of your bot
+1. Rename .env_example in .env;
 
-2. pip install requirements.txt
+2. Place into .env you telegram bot token;
 
-3. python start_up.py
+3. Create venv and activate him;
 
-4. Enjoy!
+```
+pip install requirements.txt;
+
+python start_up.py;
+```
+6. Enjoy 🎉

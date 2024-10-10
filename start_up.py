@@ -1,9 +1,11 @@
-import io
-import logging
+import io, os, logging
+from dotenv import load_dotenv
 from telegram import Update, InputSticker
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, filters, MessageHandler
-from settings import *
 from PIL import Image
+
+load_dotenv()
+TOKEN = os.getenv('TOKEN') 
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
